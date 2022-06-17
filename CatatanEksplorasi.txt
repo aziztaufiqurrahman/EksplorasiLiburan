@@ -1,0 +1,6 @@
+-> di dalam tag head itu ada beberapa :
+title, css, metadata, javascript.
+Metadata : charset, description, keywords, author.
+
+-> Body : teks, pendukung teks, gambar, hyperlink, list (bullets & numbering), tabel, form, script,
+object, grouping.

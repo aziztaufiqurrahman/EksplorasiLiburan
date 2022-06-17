@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html> 
+    <!--Pada head ini ibaratnya seperti kepala dari sebuah robot/object, di dalamnya mengandung :
+    1. judul object; 2. style object; 3. javascript (kecerdasan); 4. metadata -->
+    <head>
+        <title>
+            OTW 75jt
+        </title>
+    </head>
+    <!--Pada body ini yang akan ditampilkan pada website, mengandung banyak sekali peran/atribut yang bisa diguanakan 
+    seperti 1. paragraf; 2. list (orderList, unorderList, dan definitionList); 3. kolom baris dan table (border, cellspacing, cellpadding); 4. form (textField/input -> text, checkBox, radio, password; textArea; select/dropDown; button; label); 5. heading (h1-h6); 
+    6. hyperlink (saat diklik bisa langsung ke bagian tertentu (onePage) dibantu dengan penambahan id pada judul kemudian href="#xxxx"); 7. image;  -->
+    <!--Penekanan pada paragraf bisa menggunakan bantuan <strong></strong> atau menggunakan <em></em> -->
+    <body>
+        <form>
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio" id="pria" name="gender"> <label for="pria">Pria</label> <input type="radio" id="wanita" name="gender"> <label for="wanita">Wanita</label></td>
+                </tr>
+                <tr>
+                    <td>Hoby</td>
+                    <td><input type="checkbox" id="coding"><label for="coding">Coding</label> 
+                        <input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+                        <input type="checkbox" id="futsal"><label for="futsal">Futsal</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kota Kelahiran</td>
+                    <td><select>
+                        <option>Bandung</option>
+                        <option>Bali</option>
+                        <option>Jakarta</option>
+                        <option>Yogyakarta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Isi Di Sini</td>
+                    <td><textarea name="teksArea" id="teks" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">KIRIM</button></td>
+                </tr>
+            </table>
+        </form>
+        <h3>
+            Yang harus dikerjakan 
+        </h3>
+        <ul type="square"> 
+            <li>Coding</li>
+            <li>1 Month 1 apps</li>
+            <li>Cuan</li>
+        </ul>
+        <h3>
+           Penggunaan Definition List
+        </h3>
+        <!-- <dl> itu adalah definition list 
+             <dt> itu adalah definition terminology
+             <dd> itu adalah definition description -->
+        <dl>
+            <dt><strong>HTML</strong></dt>
+            <dd><b>Hypertext Markup Language</b></dd>
+            <dt><strong>CSS</strong></dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+        <h3>
+            Penggunaan anchor 
+        </h3>
+        <p>Klik <a href="https://twitter.com/home">di sini</a> coba</p>
+    </body>
+</html>
